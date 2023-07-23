@@ -15,7 +15,7 @@
 
   <body>
     <header>
-<!-- navbar section -->
+      <!-- navbar section -->
 
       <div class="navbar bg-base-100">
         <div class="flex-1">
@@ -78,7 +78,7 @@
         </div>
       </div>
 
-<!-- banner section -->
+      <!-- banner section -->
 
       <div
         class="hero min-h-[calc(100vh-66px)]"
@@ -101,7 +101,7 @@
     </header>
 
     <main>
-<!--collections section  -->
+      <!--collections section  -->
 
       <section
         class="max-w-screen-lg mx-auto px-8 md:px-16 lg:px-32 py-5 my-10"
@@ -159,7 +159,7 @@
         </div>
       </section>
 
-<!-- featured section -->
+      <!-- featured section -->
 
       <section
         class="max-w-screen-lg mx-auto px-8 md:px-16 lg:px-32 py-5 my-10"
@@ -184,72 +184,122 @@
         </div>
       </section>
 
-<!-- products section -->
+      <!-- products section -->
 
-      <section class="max-w-screen-lg mx-auto px-8 md:px-16 lg:px-32 py-5 my-10">
+      <section
+        class="max-w-screen-lg mx-auto px-8 md:px-16 lg:px-32 py-5 my-10"
+      >
+        <!-- heading products -->
 
-       
-          <div class="text-center pb-5">
-            <h1 class="text-2xl md:text-4xl">Top Products</h1>
-            <p class="text-sm">Browse from a various collections</p>
+        <div class="text-center pb-5">
+          <h1 class="text-2xl md:text-4xl">Top Products</h1>
+          <p class="text-sm">Browse from a various collections</p>
+        </div>
+
+        <!-- card of products -->
+
+        <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5">
+          <div class="card bg-base-100 shadow-xl">
+            <figure><img src="images/formal-shirt.avif" alt="" /></figure>
+            <div class="card-body">
+              <h2 class="card-title">Formal Shirt</h2>
+              <p>
+                Our mission is to provide you with a diverse and trendy
+                collection.
+              </p>
+              <div class="card-actions justify-end">
+                <button class="btn">Buy Now</button>
+              </div>
+            </div>
           </div>
 
-          <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5">
-
-            <div class="card bg-base-100 shadow-xl">
-              <figure><img src="images/formal-shirt.avif" alt="" /></figure>
-              <div class="card-body">
-                <h2 class="card-title">Formal Shirt</h2>
-                <p>Our mission is to provide you with a diverse and trendy collection.</p>
-                <div class="card-actions justify-end">
-                  <button class="btn">Buy Now</button>
-                </div>
+          <div class="card bg-base-100 shadow-xl">
+            <figure><img src="images/formal-shoe.avif" alt="" /></figure>
+            <div class="card-body">
+              <h2 class="card-title">Formal Shoe</h2>
+              <p>
+                Our mission is to provide you with a diverse and trendy
+                collection.
+              </p>
+              <div class="card-actions justify-end">
+                <button class="btn">Buy Now</button>
               </div>
             </div>
-
-            <div class="card bg-base-100 shadow-xl">
-              <figure><img src="images/formal-shoe.avif" alt="" /></figure>
-              <div class="card-body">
-                <h2 class="card-title">Formal Shoe</h2>
-                <p>Our mission is to provide you with a diverse and trendy collection.</p>
-                <div class="card-actions justify-end">
-                  <button class="btn">Buy Now</button>
-                </div>
-              </div>
-            </div>
-
-            <div class="card bg-base-100 shadow-xl">
-              <figure><img src="images/trendy-tshirt.avif" alt="" /></figure>
-              <div class="card-body">
-                <h2 class="card-title">Trendy T-Shirt</h2>
-                <p>Our mission is to provide you with a diverse and trendy collection.</p>
-                <div class="card-actions justify-end">
-                  <button class="btn">Buy Now</button>
-                </div>
-              </div>
-            </div>
-
-            <div class="card bg-base-100 shadow-xl">
-              <figure><img src="images/casual-shirt.avif" alt="" /></figure>
-              <div class="card-body">
-                <h2 class="card-title">Casual Shirt</h2>
-                <p>Our mission is to provide you with a diverse and trendy collection.</p>
-                <div class="card-actions justify-end">
-                  <button class="btn">Buy Now</button>
-                </div>
-              </div>
-            </div>
-
-
           </div>
 
-        
+          <div class="card bg-base-100 shadow-xl">
+            <figure><img src="images/trendy-tshirt.avif" alt="" /></figure>
+            <div class="card-body">
+              <h2 class="card-title">Trendy T-Shirt</h2>
+              <p>
+                Our mission is to provide you with a diverse and trendy
+                collection.
+              </p>
+              <div class="card-actions justify-end">
+                <button class="btn">Buy Now</button>
+              </div>
+            </div>
+          </div>
 
-
-
+          <div class="card bg-base-100 shadow-xl">
+            <figure><img src="images/casual-shirt.avif" alt="" /></figure>
+            <div class="card-body">
+              <h2 class="card-title">Casual Shirt</h2>
+              <p>
+                Our mission is to provide you with a diverse and trendy
+                collection.
+              </p>
+              <div class="card-actions justify-end">
+                <button class="btn">Buy Now</button>
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
 
+      <!-- faq section -->
 
+      <section
+        class="max-w-screen-lg mx-auto px-8 md:px-16 lg:px-32 py-5 my-10"
+      >
+        <!-- heading faq -->
+        <div class="text-center pb-5">
+          <h1 class="text-2xl md:text-4xl">Frequently Asked Questions</h1>
+          <p class="text-sm">Browse from a various collections</p>
+        </div>
+
+        <!-- accordion faq -->
+
+        <div class="collapse collapse-plus bg-base-200 mb-2">
+          <input type="radio" name="my-accordion-3" checked="checked" />
+          <div class="collapse-title text-xl font-medium">
+            how can i purchase?
+          </div>
+          <div class="collapse-content">
+            <p>visit web</p>
+          </div>
+        </div>
+
+        <div class="collapse collapse-plus bg-base-200 mb-2">
+          <input type="radio" name="my-accordion-3" />
+          <div class="collapse-title text-xl font-medium">
+            what is the delivery system?
+          </div>
+          <div class="collapse-content">
+            <p>cash on delivery</p>
+          </div>
+        </div>
+
+        <div class="collapse collapse-plus bg-base-200 mb-2">
+          <input type="radio" name="my-accordion-3" />
+          <div class="collapse-title text-xl font-medium">
+            where is the currier location?
+          </div>
+          <div class="collapse-content">
+            <p>dinajpur</p>
+          </div>
+        </div>
+      </section>
     </main>
 
     <footer></footer>
